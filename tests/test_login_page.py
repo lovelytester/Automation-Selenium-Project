@@ -11,10 +11,7 @@ class TestPositiveScenarios:
 
     @pytest.mark.login #for selection execute testing
     @pytest.mark.positive
-    def test_positive_login(self):
-        driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
-        time.sleep(3)
-
+    def test_positive_login(self, driver):
         # Go to webpage
         driver.get("https://practicetestautomation.com/practice-test-login/")
         time.sleep(5)  # Pauses execution for 5 seconds

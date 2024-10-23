@@ -10,6 +10,7 @@ Welcome! This repo showcases a simple QA automation project using **Selenium** w
 - 🧩 **Conftest.py** for shared fixtures
 - 🔄 **Parameterized tests** to cover multiple scenarios
 - 📄 **requirements.txt** for dependencies
+- ⚡ **pytest-xdist** for running tests in parallel
 
 Both **positive** and **negative** test cases are included. Feel free to explore and run the tests!
 
